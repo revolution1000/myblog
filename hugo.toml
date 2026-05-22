@@ -1,18 +1,12 @@
-baseURL = "baseURL = "https://revolution1000.github.io/myblog/""
+baseURL = "https://revolution1000.github.io/myblog/"
 languageCode = "en-us"
 title = "歌未竟"
 theme = "ananke"
 
-# -----------------------
-# 分类系统（关键）
-# -----------------------
 [taxonomies]
 category = "categories"
 tag = "tags"
 
-# -----------------------
-# 菜单（主页导航栏）
-# -----------------------
 [[menu.main]]
 name = "Mathematics"
 url = "/categories/mathematics/"
@@ -28,9 +22,6 @@ name = "Posts"
 url = "/posts/"
 weight = 3
 
-# -----------------------
-# 主题参数（Ananke）
-# -----------------------
 [params]
 author = "Your Name"
 description = "Notes on Mathematics and Physics"
