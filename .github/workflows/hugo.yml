@@ -1,34 +1,24 @@
-name: Deploy Hugo site
+baseURL = "https://revolution1000.github.io/"
+languageCode = "en-us"
+title = "My Site"
+theme = "ananke"
 
-on:
-  push:
-    branches: ["main"]
+[params]
+author = "Christopher"
+description = "My personal website"
 
-permissions:
-  contents: write
+[menu]
+  [[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+  [[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 2
 
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          submodules: true
-          fetch-depth: 0
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: 'latest'
-          extended: true
-
-      - name: Build site
-        run: hugo
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+  [[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
