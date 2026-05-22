@@ -1,55 +1,41 @@
-baseURL = "https://yourname.github.io/"
-languageCode = "en-us"
-title = "歌未竟"
-theme = "PaperMod"
+baseURL: "https://revolution1000.github.io/myblog/"
+languageCode: "en-us"
+title: "歌未竟"
+theme: "ananke"
 
-# -------------------
-# 分类系统（必须）
-# -------------------
-[taxonomies]
-  category = "categories"
-  tag = "tags"
+# -----------------------
+# 分类系统（关键）
+# -----------------------
+taxonomies:
+  category: "categories"
+  tag: "tags"
 
-# -------------------
+# -----------------------
 # 菜单（主页导航栏）
-# -------------------
-[[menu.main]]
-name = "Mathematics"
-url = "/categories/mathematics/"
-weight = 1
+# -----------------------
+menu:
+  main:
+    - name: "Mathematics"
+      url: "/categories/mathematics/"
+      weight: 1
 
-[[menu.main]]
-name = "Physics"
-url = "/categories/physics/"
-weight = 2
+    - name: "Physics"
+      url: "/categories/physics/"
+      weight: 2
 
-[[menu.main]]
-name = "Posts"
-url = "/posts/"
-weight = 3
+    - name: "Posts"
+      url: "/posts/"
+      weight: 3
 
-[[menu.main]]
-name = "About"
-url = "/about/"
-weight = 4
 
-# -------------------
-# 主题参数（PaperMod）
-# -------------------
-[params]
-  author = "Your Name"
-  description = "Math & Physics Notes"
+# -----------------------
+# 主题参数（Ananke）
+# -----------------------
+params:
+  author: "Your Name"
+  description: "Notes on Mathematics and Physics"
 
-  defaultTheme = "auto"
-  ShowReadingTime = true
-  ShowToc = true
-  ShowBreadCrumbs = true
-  ShowPostNavLinks = true
-  ShowCodeCopyButtons = true
+  show_reading_time: true
+  show_post_nav_links: true
 
-# -------------------
-# 首页设置（可选）
-# -------------------
-[params.homeInfoParams]
-Title = "Hi 👋 I'm Your Name"
-Content = "Welcome to my math & physics notes."
+  background_color_class: "bg-black"
