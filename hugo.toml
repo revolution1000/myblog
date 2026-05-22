@@ -8,13 +8,13 @@ category = "categories"
 tag = "tags"
 
 [[menu.main]]
-name = "Mathematics"
-url = "/categories/mathematics/"
+name = "Economy"
+url = "/categories/economy/"
 weight = 1
 
 [[menu.main]]
-name = "Physics"
-url = "/categories/physics/"
+name = "Philosophy"
+url = "/categories/philosophy/"
 weight = 2
 
 [[menu.main]]

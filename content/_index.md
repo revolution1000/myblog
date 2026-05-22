@@ -1,28 +1,28 @@
 ---
-title: "Home"
+title: "哲学问题"
 ---
 
 # 你好
 
-这是一个分享经济学文章的网站
+这是一个分享经济学和哲学文章的网站
 ---
 
-## 📘 Mathematics
+## 📘 经济学
 
-Exploring linear algebra, calculus, and analysis.
+政治经济学文章
 
-👉 [Go to Math Posts](/categories/mathematics/)
-
----
-
-## 🔬 Physics
-
-Quantum mechanics, relativity, and field theory.
-
-👉 [Go to Physics Posts](/categories/physics/)
+👉 [查看经济学文章](/myblog/categories/economy/)
 
 ---
 
-## 📚 Latest Writing
+## 🔬 哲学与自然哲学
 
-Check my latest blog posts below.
+哲学，辩证法，自然哲学，科学，宗教
+
+👉 [查看哲学与自然哲学文章](/myblog/categories/philosophy/)
+
+---
+
+## 📚 近期发布
+
+近期发布的文章
