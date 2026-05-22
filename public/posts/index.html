@@ -1,306 +1,243 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="en-us">
+  <head><script src="/myblog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=myblog/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>歌未竟</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Notes on Mathematics and Physics">
+    <meta name="generator" content="Hugo 0.159.2">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    <meta name="author" content="Your Name">
+    
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
-<title>Posts | 歌未竟</title>
-<meta name="keywords" content="">
-<meta name="description" content="Posts - 歌未竟">
-<meta name="author" content="Your Name">
-<link rel="canonical" href="http://localhost:1313/posts/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.89ca4972ab5e6aaa05e9a0dae0c4bb64b26585bc79e36f5cf33614eea0283abe.css" integrity="sha256-icpJcqteaqoF6aDa4MS7ZLJlhbx5429c8zYU7qAoOr4=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
+    <link rel="stylesheet" href="/myblog/ananke/css/main.css">
+    
 
-    </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
 
-            .list {
-                background: var(--theme);
-            }
+    
+      
 
-            .toc {
-                background: var(--entry);
-            }
-        }
+    
 
-    </style>
-</noscript>
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
-        document.querySelector("html").dataset.theme = 'light';
-    }
+    
+    
+      <link href="/myblog/posts/index.xml" rel="alternate" type="application/rss+xml" title="歌未竟" />
+      <link href="/myblog/posts/index.xml" rel="feed" type="application/rss+xml" title="歌未竟" />
+      
+    
 
-</script>
-</head>
-<body class="list" id="top">
-    <header class="header">
-    <nav class="header-nav">
-        <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="歌未竟 (Alt + H)">歌未竟</a>
-            <div class="logo-switches">
-                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
-            </div>
-        </div>
-        <ul id="menu" class="menu">
-            <li>
-                <a href="http://localhost:1313/categories/mathematics/" title="Mathematics">
-                    <span>Mathematics</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/categories/physics/" title="Physics">
-                    <span>Physics</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/posts/" title="Posts">
-                    <span class="active">Posts</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/about/" title="About">
-                    <span>About</span>
-                </a>
-            </li>
+    
+      <link rel="canonical" href="http://localhost:1313/myblog/posts/">
+    
+
+    
+    
+    <meta property="og:url" content="http://localhost:1313/myblog/posts/">
+  <meta property="og:site_name" content="歌未竟">
+  <meta property="og:title" content="Posts">
+  <meta property="og:description" content="Notes on Mathematics and Physics">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+  <meta itemprop="name" content="Posts">
+  <meta itemprop="description" content="Notes on Mathematics and Physics">
+  <meta itemprop="datePublished" content="2026-05-22T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2026-05-22T00:00:00+00:00">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Posts">
+  <meta name="twitter:description" content="Notes on Mathematics and Physics">
+
+	
+  </head><body class="ma0 avenir bg-near-white development is-section is-section">
+    
+
+  <header>
+    <div class="pb3-m pb6-l bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/myblog/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        歌未竟
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/myblog/categories/mathematics/" title="Mathematics page">
+              Mathematics
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/myblog/categories/physics/" title="Physics page">
+              Physics
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/myblog/posts/" title="Posts page">
+              Posts
+            </a>
+          </li>
+          
         </ul>
-    </nav>
-</header>
-<main class="main"> 
-<header class="page-header"><nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
-            <a href="/">Home</a>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
-        <polyline points="9 18 15 12 9 6"></polyline>
-    </svg>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
 </nav>
-  <h1>
-    Posts
-  </h1>
-</header>
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">几何问题
-    </h2>
+      <div class="tc-l pv3 ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
+          Posts
+        </h1>
+        
+      </div>
+    </div>
   </header>
-  <div class="entry-content">
-    <p>费马大定理
-</p>
+
+
+    <main class="pb7" role="main">
+      
+  <article class="pa3 pa4-ns nested-copy-line-height">
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links mid-gray"></section>
+    <section class="flex-ns mt5 flex-wrap justify-around">
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/myblog/posts/%E6%95%B0%E5%AD%A6---%E5%89%AF%E6%9C%AC/" class="link black dim">
+        几何问题
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>费马大定理</p>
+    </div>
+    <a href="/myblog/posts/%E6%95%B0%E5%AD%A6---%E5%89%AF%E6%9C%AC/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
-  <footer class="entry-footer">
+</div>
 
-<span title='2026-05-22 00:00:00 +0000 UTC'>May 22, 2026</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Your Name</span></footer>
-  <a class="entry-link" aria-label="post link to 几何问题" href="http://localhost:1313/posts/%E6%95%B0%E5%AD%A6---%E5%89%AF%E6%9C%AC/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">固体问题
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>费马大定理
-</p>
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/myblog/posts/%E6%95%B0%E5%AD%A6---%E5%89%AF%E6%9C%AC-2/" class="link black dim">
+        固体问题
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>费马大定理</p>
+    </div>
+    <a href="/myblog/posts/%E6%95%B0%E5%AD%A6---%E5%89%AF%E6%9C%AC-2/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
-  <footer class="entry-footer">
+</div>
 
-<span title='2026-05-22 00:00:00 +0000 UTC'>May 22, 2026</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Your Name</span></footer>
-  <a class="entry-link" aria-label="post link to 固体问题" href="http://localhost:1313/posts/%E6%95%B0%E5%AD%A6---%E5%89%AF%E6%9C%AC-2/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">数论问题
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>费马大定理
-</p>
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/myblog/posts/%E6%95%B0%E5%AD%A6/" class="link black dim">
+        数论问题
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>费马大定理</p>
+    </div>
+    <a href="/myblog/posts/%E6%95%B0%E5%AD%A6/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
-  <footer class="entry-footer">
+</div>
 
-<span title='2026-05-22 00:00:00 +0000 UTC'>May 22, 2026</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Your Name</span></footer>
-  <a class="entry-link" aria-label="post link to 数论问题" href="http://localhost:1313/posts/%E6%95%B0%E5%AD%A6/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">方程问题
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>费马大定理
-</p>
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/myblog/posts/%E6%95%B0%E5%AD%A6---%E5%89%AF%E6%9C%AC-4/" class="link black dim">
+        方程问题
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>费马大定理</p>
+    </div>
+    <a href="/myblog/posts/%E6%95%B0%E5%AD%A6---%E5%89%AF%E6%9C%AC-4/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
-  <footer class="entry-footer">
+</div>
 
-<span title='2026-05-22 00:00:00 +0000 UTC'>May 22, 2026</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Your Name</span></footer>
-  <a class="entry-link" aria-label="post link to 方程问题" href="http://localhost:1313/posts/%E6%95%B0%E5%AD%A6---%E5%89%AF%E6%9C%AC-4/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">玻色子问题
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>费马大定理
-</p>
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/myblog/posts/%E6%95%B0%E5%AD%A6---%E5%89%AF%E6%9C%AC-3/" class="link black dim">
+        玻色子问题
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>费马大定理</p>
+    </div>
+    <a href="/myblog/posts/%E6%95%B0%E5%AD%A6---%E5%89%AF%E6%9C%AC-3/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
-  <footer class="entry-footer">
+</div>
 
-<span title='2026-05-22 00:00:00 +0000 UTC'>May 22, 2026</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Your Name</span></footer>
-  <a class="entry-link" aria-label="post link to 玻色子问题" href="http://localhost:1313/posts/%E6%95%B0%E5%AD%A6---%E5%89%AF%E6%9C%AC-3/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">费米子问题
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>狄拉克场问题
-</p>
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/myblog/posts/%E7%89%A9%E7%90%86%E5%AD%A6/" class="link black dim">
+        费米子问题
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>狄拉克场问题</p>
+    </div>
+    <a href="/myblog/posts/%E7%89%A9%E7%90%86%E5%AD%A6/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
   </div>
-  <footer class="entry-footer">
+</div>
 
-<span title='2026-05-22 00:00:00 +0000 UTC'>May 22, 2026</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Your Name</span></footer>
-  <a class="entry-link" aria-label="post link to 费米子问题" href="http://localhost:1313/posts/%E7%89%A9%E7%90%86%E5%AD%A6/"></a>
-</article>
+        </div>
+      
+    </section>
+    </article>
+
     </main>
-    
-<footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">歌未竟</a></span> · 
-
-    
-    
-    <span>
-        Powered by
-        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/myblog/" >
+    &copy;  歌未竟 2026 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
 </footer>
-<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
-        <polyline points="17 11 12 6 7 11"></polyline>
-        <polyline points="17 18 12 13 7 18"></polyline>
-    </svg>
-</a>
 
-<script>
-    let menu = document.getElementById('menu');
-    if (menu) {
-        
-        const scrollPosition = localStorage.getItem("menu-scroll-position");
-        if (scrollPosition) {
-            menu.scrollLeft = parseInt(scrollPosition, 10);
-        }
-        
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var toplink = document.getElementById("top-link");
-    window.onscroll = function () {
-        const scrollThreshold = window.innerHeight;
-        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
-            toplink.classList.remove("hidden");
-        } else {
-            toplink.classList.add("hidden");
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        const html = document.querySelector("html");
-        if (html.dataset.theme === "dark") {
-            html.dataset.theme = 'light';
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            html.dataset.theme = 'dark';
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
-</body>
-
+  </body>
 </html>
+
+
+
