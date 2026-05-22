@@ -1,41 +1,41 @@
-baseURL: "https://github.com/revolution1000/myblog"
-languageCode: "en-us"
-title: "歌未竟"
-theme: "ananke"
+baseURL = "https://github.com/revolution1000/myblog"
+languageCode = "en-us"
+title = "歌未竟"
+theme = "ananke"
 
 # -----------------------
 # 分类系统（关键）
 # -----------------------
-taxonomies:
-  category: "categories"
-  tag: "tags"
+[taxonomies]
+category = "categories"
+tag = "tags"
 
 # -----------------------
 # 菜单（主页导航栏）
 # -----------------------
-menu:
-  main:
-    - name: "Mathematics"
-      url: "/categories/mathematics/"
-      weight: 1
+[[menu.main]]
+name = "Mathematics"
+url = "/categories/mathematics/"
+weight = 1
 
-    - name: "Physics"
-      url: "/categories/physics/"
-      weight: 2
+[[menu.main]]
+name = "Physics"
+url = "/categories/physics/"
+weight = 2
 
-    - name: "Posts"
-      url: "/posts/"
-      weight: 3
-
+[[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 3
 
 # -----------------------
 # 主题参数（Ananke）
 # -----------------------
-params:
-  author: "Your Name"
-  description: "Notes on Mathematics and Physics"
+[params]
+author = "Your Name"
+description = "Notes on Mathematics and Physics"
 
-  show_reading_time: true
-  show_post_nav_links: true
+show_reading_time = true
+show_post_nav_links = true
 
-  background_color_class: "bg-black"
+background_color_class = "bg-black"
